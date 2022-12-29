@@ -2,10 +2,16 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+:root{
+  --color-backgound: #131E40;
+  --color-letter-title: #5E92BF;
+  --color-letter-paragraph: #96BFD9;
+  --color-second-light: #26488C;
+  --color-second-dark: #1F3B73;
+  --font-title:'Montserrat', sans-serif;
+  --font-paragraph: 'Hind', sans-serif; 
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -13,14 +19,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
