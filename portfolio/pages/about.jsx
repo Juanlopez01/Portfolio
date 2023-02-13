@@ -19,7 +19,11 @@ const About = () => {
     <Hero />
     <div className=' p-4 m-auto flex flex-col items-center gap-20'>
       <p className='text-lg'>
-        I am 21 years old and I live in Argentina.<br></br> I am a student of Civil Engineering and graduated as Full Stack Web Developer in the PERN stack. I am passionate about logic and sports. I am proactive, partner and above all, I enjoy learning a lot.
+      Hello! I am Juan, I help companies get closer to their dream website, through my knowledge and my tireless desire to learn, so that we both push ourselves to be our best versions.<br></br>
+            I am 21 years old and I am Argentine, I study civil engineering and I graduated as Full Stack Web Developer.<br></br> 
+            A few years ago I could start my own venture, and that, mixed with the interest that I always had to learn to program (because I think that everyone calls our attention the words of colors) made me the person that I am today, looking to help all those who, Like me, it was hard and difficult to push their ideas and dreams.<br></br> 
+            I like to work as a team, I am very organized and I have many long-term goals.<br></br> 
+            I play amateur football, I am passionate and eager to grow professionally.
       </p>
     </div>
     <ExperienceMob />
