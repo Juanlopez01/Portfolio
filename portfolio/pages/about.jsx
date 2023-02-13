@@ -25,8 +25,17 @@ const About = () => {
     <ExperienceMob />
     <StudiesMob />
     <div className='flex justify-center p-7 pb-20'>
-      <button className="btn btn-md sm:btn-sm md:btn-md lg:btn-lg"><Link href='https://drive.google.com/file/d/1ojPU0KUOaehixPTEpPsjZV0GKbuv-kZr/view?usp=share_link' target='_blank'>Curriculum Vitae</Link></button>
+      <label htmlFor="my-modal-3" className="btn">Curriculum Vitae</label>
+        <input type="checkbox" id="my-modal-3" className="modal-toggle" />
+        <div className="modal">
+          <div className="modal-box relative">
+            <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+            <Link href='https://drive.google.com/file/d/1LMykmHPeesu4zOIP6u8SNgIkiR5sZsG2/view?usp=sharing' target='_blank' className='btn flex gap-4 mt-5'><img src='https://media.flaticon.com/dist/min/img/flags/es.svg' className='w-[30px]'/>Spanish</Link>
+            <Link href='https://drive.google.com/file/d/1ry5f13KJbxPehEbEMIPCwek_CNFbN8o6/view?usp=sharing' target='_blank' className='btn flex gap-4 mt-5'><img src='https://media.flaticon.com/dist/min/img/flags/en.svg' className='w-[30px]'/>English</Link>
+          </div>
+        </div>
     </div>
+
     <NavBar/>
     </div>
   )

@@ -46,8 +46,8 @@ const NavBar = () => {
           <li className="dropdown dropdown-end">
             <label tabIndex={0} className="btn m-1">CV</label>
             <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-              <li><Link href='https://drive.google.com/file/d/1ojPU0KUOaehixPTEpPsjZV0GKbuv-kZr/view?usp=share_link' target='_blank'><img src='https://media.flaticon.com/dist/min/img/flags/es.svg' className='w-[30px]'/>Spanish</Link></li>
-              <li><a><img src='https://media.flaticon.com/dist/min/img/flags/en.svg' className='w-[30px]'/>English</a></li>
+              <li><Link href='https://drive.google.com/file/d/1LMykmHPeesu4zOIP6u8SNgIkiR5sZsG2/view?usp=sharing' target='_blank'><img src='https://media.flaticon.com/dist/min/img/flags/es.svg' className='w-[30px]'/>Spanish</Link></li>
+              <li><Link href='https://drive.google.com/file/d/1ry5f13KJbxPehEbEMIPCwek_CNFbN8o6/view?usp=sharing' target='_blank'><img src='https://media.flaticon.com/dist/min/img/flags/en.svg' className='w-[30px]'/>English</Link></li>
             </ul>
           </li>
         </ul>
