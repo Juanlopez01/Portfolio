@@ -10,6 +10,10 @@ module.exports = {
       ],
   theme: {
     extend: {},
+    fontFamily: {
+      'mont': ['Montserrat' , 'sans-serif'],
+      'barlow': ['Barlow Condensed' , 'sans-serif']
+    }
   },
   plugins: [require("daisyui")],
 }
