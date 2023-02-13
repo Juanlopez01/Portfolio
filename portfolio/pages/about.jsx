@@ -8,7 +8,7 @@ import BgParticles from '../components/particlesBackground/BgParticles'
 import StudiesMob from '../components/StudiesMob'
 const About = () => {
   return (
-    <>
+    <div className='h-screen pb-20'>
     <BgParticles />
     <Head>
     <title>JUAN LOPEZ</title>
@@ -24,11 +24,11 @@ const About = () => {
     </div>
     <ExperienceMob />
     <StudiesMob />
-    <div className='flex justify-center p-7'>
+    <div className='flex justify-center p-7 pb-20'>
       <button className="btn btn-md sm:btn-sm md:btn-md lg:btn-lg"><Link href='https://drive.google.com/file/d/1ojPU0KUOaehixPTEpPsjZV0GKbuv-kZr/view?usp=share_link' target='_blank'>Curriculum Vitae</Link></button>
     </div>
-    <NavBar page='Home'/>
-    </>
+    <NavBar/>
+    </div>
   )
 }
 

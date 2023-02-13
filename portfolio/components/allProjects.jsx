@@ -34,7 +34,7 @@ const AllProjectsMob = () => {
             </div>
         </div>
     </div>
-    <div className='flex w-11/12 m-auto pt-5 sm:hidden'>
+    <div className='flex w-11/12 m-auto pt-5 pb-20 sm:hidden'>
         <div className='w-1/3'>
             <img className='rounded-l-md' src='https://res.cloudinary.com/dg0okhqyc/image/upload/v1674912354/Captura_de_pantalla_2023-01-28_102447_cjln1o.png'/>
         </div>
