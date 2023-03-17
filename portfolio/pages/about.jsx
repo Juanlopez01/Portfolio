@@ -34,8 +34,8 @@ const About = () => {
         <div className="modal">
           <div className="modal-box relative">
             <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
-            <Link href='https://drive.google.com/file/d/1LMykmHPeesu4zOIP6u8SNgIkiR5sZsG2/view?usp=sharing' target='_blank' className='btn flex gap-4 mt-5'><img src='https://media.flaticon.com/dist/min/img/flags/es.svg' className='w-[30px]'/>Spanish</Link>
-            <Link href='https://drive.google.com/file/d/1ry5f13KJbxPehEbEMIPCwek_CNFbN8o6/view?usp=sharing' target='_blank' className='btn flex gap-4 mt-5'><img src='https://media.flaticon.com/dist/min/img/flags/en.svg' className='w-[30px]'/>English</Link>
+            <Link href='https://drive.google.com/file/d/1tEfA3ELjFeTTZw84E87OpQrs-wR3aunU/view?usp=sharing' target='_blank' className='btn flex gap-4 mt-5'><img src='https://media.flaticon.com/dist/min/img/flags/es.svg' className='w-[30px]'/>Spanish</Link>
+            <Link href='https://drive.google.com/file/d/1PJFW5_IETt4_605VUu82GC-UhJOUMNZd/view?usp=sharing' target='_blank' className='btn flex gap-4 mt-5'><img src='https://media.flaticon.com/dist/min/img/flags/en.svg' className='w-[30px]'/>English</Link>
           </div>
         </div>
     </div>
